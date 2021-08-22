@@ -1,3 +1,5 @@
 <h2><%= @task.title %></h2>
 <p><%= @task.details %></p>
-<h3><%= @completed %></h3>
+<h3><%= @task.completed %></h3>
+<%= link_to "volver", tasks_path %>
+<%= link_to "modificar", edit_task_path %>
